@@ -1,0 +1,8 @@
+﻿[{"id":"d235b842-3f77-4603-925a-bc3ced0a3c30",
+"property_type_id":"f26bdb46-c2f8-4c14-9702-d4d1f4a80ad1",
+"wards_code":"0100100001",
+"detail_location":"Hà N?i",
+"map_location":null,
+"square":250,
+"price":"3000000000"
+,"price_unit":"VND","direction":"Ðông - Nam","policy":"Sổ đỏ","description":null,"bedroom_count":null,"bathroom_count":null,"floor_count":null,"balocony_count":null,"entrance":null,"furniture":null,"facade":null,"created_at":"2022-07-04 10:09:00","updated_at":"2022-07-13 14:03:59"},{"id":"4d82d6f6-211f-467e-873e-a91efb27555f","property_type_id":"1db3e6ce-c180-492f-b4ad-485e6bb67684","wards_code":"3130311308","detail_location":"H?i Phòng","map_location":null,"square":300,"price":"2000000000","price_unit":"VND","direction":"Ðông - Tây","policy":"S? h?ng","description":null,"bedroom_count":null,"bathroom_count":null,"floor_count":null,"balocony_count":null,"entrance":null,"furniture":null,"facade":null,"created_at":"2022-07-04 11:10:19","updated_at":null}]

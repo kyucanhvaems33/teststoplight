@@ -1,0 +1,1503 @@
+{
+  "openapi": "3.1.0",
+  "x-stoplight": {
+    "id": "zhf2mps0exdag"
+  },
+  "info": {
+    "title": "apiv1",
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000"
+    }
+  ],
+  "paths": {
+    "/provinces/": {
+      "get": {
+        "summary": "Your GET endpoint",
+        "tags": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/provinces"
+                }
+              }
+            }
+          }
+        },
+        "operationId": "get-provinces"
+      }
+    },
+    "/amenities/": {
+      "get": {
+        "summary": "Your GET endpoint",
+        "tags": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/amenities"
+                }
+              }
+            }
+          }
+        },
+        "operationId": "get-amenities"
+      }
+    },
+    "/categories": {
+      "get": {
+        "summary": "Your GET endpoint",
+        "tags": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/categories"
+                }
+              }
+            }
+          }
+        },
+        "operationId": "get-categories"
+      }
+    },
+    "/conversation_histories/": {
+      "get": {
+        "summary": "Your GET endpoint",
+        "tags": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/conversation_histories"
+                }
+              }
+            }
+          }
+        },
+        "operationId": "get-conversation_histories"
+      }
+    },
+    "/experts/": {
+      "get": {
+        "summary": "Your GET endpoint",
+        "tags": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/experts"
+                }
+              }
+            }
+          }
+        },
+        "operationId": "get-experts"
+      }
+    },
+    "/news/": {
+      "get": {
+        "summary": "Your GET endpoint",
+        "tags": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/news"
+                }
+              }
+            }
+          }
+        },
+        "operationId": "get-news"
+      }
+    },
+    "/profiles/": {
+      "get": {
+        "summary": "Your GET endpoint",
+        "tags": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/profiles"
+                }
+              }
+            }
+          }
+        },
+        "operationId": "get-profiles"
+      }
+    },
+    "/properties/": {
+      "get": {
+        "summary": "Your GET endpoint",
+        "tags": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/properties"
+                }
+              }
+            }
+          }
+        },
+        "operationId": "get-properties"
+      }
+    },
+    "/property_amenities/": {
+      "get": {
+        "summary": "Your GET endpoint",
+        "tags": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/property_amenities"
+                }
+              }
+            }
+          }
+        },
+        "operationId": "get-property_amenities"
+      }
+    },
+    "/property_images/": {
+      "get": {
+        "summary": "Your GET endpoint",
+        "tags": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/property_images"
+                }
+              }
+            }
+          }
+        },
+        "operationId": "get-property_images"
+      }
+    },
+    "/property_posts/": {
+      "get": {
+        "summary": "Your GET endpoint",
+        "tags": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/property_posts"
+                }
+              }
+            }
+          }
+        },
+        "operationId": "get-property_posts"
+      }
+    },
+    "/property_types/": {
+      "get": {
+        "summary": "Your GET endpoint",
+        "tags": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/property_types"
+                }
+              }
+            }
+          }
+        },
+        "operationId": "get-property_types"
+      }
+    },
+    "/request_types/": {
+      "get": {
+        "summary": "Your GET endpoint",
+        "tags": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/request_types"
+                }
+              }
+            }
+          }
+        },
+        "operationId": "get-request_types"
+      }
+    },
+    "/request_users/": {
+      "get": {
+        "summary": "Your GET endpoint",
+        "tags": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/request_users"
+                }
+              }
+            }
+          }
+        },
+        "operationId": "get-request_users"
+      }
+    },
+    "/roles/": {
+      "get": {
+        "summary": "Your GET endpoint",
+        "tags": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/roles"
+                }
+              }
+            }
+          }
+        },
+        "operationId": "get-roles"
+      }
+    },
+    "/status/": {
+      "get": {
+        "summary": "Your GET endpoint",
+        "tags": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/status"
+                }
+              }
+            }
+          }
+        },
+        "operationId": "get-status"
+      }
+    },
+    "/techniques/": {
+      "get": {
+        "summary": "Your GET endpoint",
+        "tags": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/techniques"
+                }
+              }
+            }
+          }
+        },
+        "operationId": "get-techniques"
+      }
+    },
+    "/transaction_types/": {
+      "get": {
+        "summary": "Your GET endpoint",
+        "tags": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/transaction_types"
+                }
+              }
+            }
+          }
+        },
+        "operationId": "get-transaction_types"
+      }
+    },
+    "/users/": {
+      "get": {
+        "summary": "Your GET endpoint",
+        "tags": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/users"
+                }
+              }
+            }
+          }
+        },
+        "operationId": "get-users"
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "amenities": {
+        "type": "object",
+        "x-examples": {
+          "example-1": {
+            "id": "0c08b180-cebe-4b6b-b103-7cc3da401927",
+            "name": "Siêu th?",
+            "description": "d?a ch?, tên siêu th? xung quanh",
+            "created_at": "2022-07-04 09:43:30",
+            "updated_at": null
+          }
+        },
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updated_at": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "date-time"
+          }
+        },
+        "examples": [
+          {
+            "id": "0c08b180-cebe-4b6b-b103-7cc3da401927",
+            "name": "Siêu thị",
+            "description": "địa chỉ, tên siêu thị xung quanh",
+            "created_at": "2022-07-04 09:43:30",
+            "updated_at": null
+          }
+        ]
+      },
+      "categories": {
+        "type": "object",
+        "x-examples": {
+          "example-1": {
+            "id": "bd0a00e3-1000-4cd1-8a66-9c4b3ddde829",
+            "name": "Tin tức",
+            "description": null,
+            "created_at": "2022-07-05 14:18:18.549223+07",
+            "updated_at": null
+          }
+        },
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updated_at": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "date-time"
+          }
+        }
+      },
+      "conversation_histories": {
+        "type": "object",
+        "x-examples": {
+          "example-1": {
+            "id": "445baf1d-ae3d-4f99-9fad-814d45792e54",
+            "request_user_id": "4c2f162f-6804-4453-bcb0-763060e8d92e",
+            "expert_id": "1d7bbcc4-fe21-4ea5-9f27-18a7537b43fe",
+            "detail": "Đây là cuộc trò truyện",
+            "start_time": "2022-07-21 15:29:00.719278",
+            "end_time": "2022-07-21 15:29:00.719278",
+            "created_at": "2022-07-21 15:29:00.719278",
+            "updated_at": null
+          }
+        },
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "request_user_id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "expert_id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "detail": {
+            "type": "string"
+          },
+          "start_time": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "end_time": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updated_at": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "date-time"
+          }
+        }
+      },
+      "experts": {
+        "type": "object",
+        "x-examples": {
+          "example-1": {
+            "id": "1d7bbcc4-fe21-4ea5-9f27-18a7537b43fe",
+            "user_id": "37c2cd54-ac59-406e-966a-123dd1452d1d",
+            "technique_id": "5f50f873-ad3b-4ef0-98d6-ddf6a27eabf5",
+            "created_at": "2022-07-21 15:20:05.785782",
+            "updated_at": null
+          }
+        },
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "user_id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "technique_id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updated_at": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "date-time"
+          }
+        }
+      },
+      "news": {
+        "type": "object",
+        "x-examples": {
+          "example-1": {
+            "id": "3d31fab8-f138-4108-910c-37cfbcc4be96",
+            "user_id": "e6c2ffc7-4ea9-4843-99a8-b1e57337419a",
+            "category_id": "52b1a66e-6180-4727-a96b-ea1affb0a6c9",
+            "status_id": "fe1390b8-ac6a-48df-855a-2924de1b02eb",
+            "post_time": null,
+            "title": "Kinh nghi?m thuê kho xu?ng t?i Hà N?i",
+            "content": "Kho bãi, nhà xu?ng là xu hu?ng kinh doanh du?c nhi?u nhà d?u tu quan tâm, b?i nó là khu v?c r?t quan tr?ng khi các doanh nghi?p c?n thêm di?n tích d? luu tr? hàng hóa và m? r?ng kinh doanh. Vì th?, d? thuê kho xu?ng phù h?p v?i nhu c?u là di?u b?t k? ch? doanh nghi?p nào cung c?n luu ý, vì chúng ?nh hu?ng d?n quá trình ho?t d?ng kinh doanh cung nhu ngân sách c?a doanh nghi?p dó. Nh?ng kinh nghi?m thuê kho bãi nhà xu?ng Hà N?i du?i dây s? giúp b?n l?a ch?n d? dàng nh?t.\r\n12 kinh nghi?m thuê kho bãi nhà xu?ng t?i Hà N?i\r\nTh? tru?ng cho thuê kho nhà xu?ng nói chung và kho bãi nhà xu?ng t?i Hà N?i nói riêng dã và dang nh?n du?c nhi?u s? quan tâm c?a c? bên d?u tu l?n nh?ng khách hàng có nhu c?u thuê. T?i Vi?t Nam hi?n nay, các ngành công nghi?p truy?n th?ng nhu D?u khí, May m?c, Co khí, Ði?n, Ði?n t?, Vi sinh... dang có s? phát tri?n vu?t b?c kéo theo nhu c?u thuê kho bãi nhà xu?ng tang cao. Theo kh?o sát c?a Batdongsan.com.vn, t?ng di?n tích d?t công nghi?p cho thuê t?i Hà N?i và các t?nh mi?n B?c dang d?ng lo?t tang. Theo dó, H?i Phòng và B?c Ninh dang có di?n tích d?t công nghi?p cho thuê chi?m 45% t?ng ngu?n, Hung Yên, H?i Duong và Th? dô Hà N?i chính là khu v?c có ngu?n cung h?n ch? nh?t. B?i th?, d? có th? thuê kho nhà xu?ng Hà N?i giá r? nhung hi?u qu? thì ngu?i thuê c?n có ki?n th?c và kinh nghi?m. Cùng tham kh?o nh?ng kinh nghi?m thuê kho xu?ng mà chúng tôi c?p nh?t ngay sau dây nhé.\r\nV? trí và tình tr?ng kho xu?ng\r\nV? trí c?a kho xu?ng du?c xem là y?u t? quy?t d?nh d?n vi?c v?n chuy?n hàng hóa và s?n xu?t có thu?n ti?n hay không. V? trí c?a kho có th? không n?m c?nh các khu công nghi?p hay trong trung tâm thành ph?, nhung ph?i b?o d?m thu?n ti?n cho di l?i. N?m b?t du?c y?u t? này s? không ch? giúp b?n rút ng?n kho?ng th?i gian cung ?ng hàng hóa mà còn gi?m du?c chi phí trong quá trình v?n chuy?n.\r\nBên c?nh dó, tình tr?ng c?a kho xu?ng các b?n d?nh thuê cung là m?t y?u t? quan tr?n b?n c?n xem xét d?n. V? trí này c?n n?m t?i khu v?c d?t cao, nhu th? s? tránh du?c ?m m?c, du?ng di vào xu?ng cung ph?i d? r?ng d? xe ô tô có th? di chuy?n t?i m?t cách d? dàng. H? th?ng thoát nu?c, c?ng rãnh t?i dây cung c?n d?m b?o ph?c v? t?t cho quá trình ho?t d?ng s?n xu?t. Tùy vào m?t hàng kinh doanh mà b?n c?n cân nh?c k? m?t s? y?u t? v? tình tr?ng kho xu?ng tuong ?ng, ví d?: kho xu?ng s?ch s?, không ?m th?p, không có tình tr?ng m?i m?t, côn trùng,…\r\nV? trí c?a kho xu?ng là y?u t? quy?t d?nh d?n vi?c v?n chuy?n hàng hóa s?n xu?t có thu?n ti?n hay không\r\nDi?n tích và hình th?c thuê kho\r\nB?n c?n xác d?nh lu?ng hàng mình c?n luu tr?, quy cách s?p x?p nhu th? nào d? l?a ch?n d?a di?m thuê có di?n tích phù h?p. Hi?n nay, có da d?ng hình th?c l?a ch?n d? thuê kho xu?ng nhu: thuê kho theo mét, thuê theo d?u t?n, ho?c thuê theo d?ng khoán,… Ngoài ra, ngu?i thuê cung c?n ph?i tính toán c? di?n tích c?a l?i di l?y hàng, n?u nhu hàng hóa dó phân lo?i theo s? lô. Thông thu?ng ph?n di?n tích l?i di này s? chi?m kho?ng 10% trong t?ng di?n tích ch?t hàng hóa.\r\nGiá thuê kho bãi nhà xu?ng\r\nV? trí, tình tr?ng kho, di?n tích và hình th?c thuê kho xu?ng là nh?ng y?u có t? ?nh hu?ng tr?c ti?p d?n giá thuê. B?n c?n cân nh?c k? lu?ng và dua ra nh?ng dánh giá y?u t? này d? quy?t d?nh m?c giá thuê sao cho h?p lý. Bên c?nh dó, b?n cung c?n xét c? quy mô hàng hóa c?a doanh nghi?p b?n, d?ch v? cung nhu kh? nang tài chính d? có th? dua ra m?c giá thuê m?t cách ?n th?a nh?t.\r\nCác d?ch v? h? tr? và chi phí nhu th? nào?\r\nM?t kinh nghi?m thuê kho bãi nhà xu?ng n?a mà b?n c?n luu tâm dó là các d?ch v? h? tr? c?a bên cho thuê kho nhà xu?ng. Nh?ng d?ch v? dó nhu: di?n, nu?c, d?ch v? b?c x?p hàng hóa, d?ch v? trông coi hàng hóa, d?ch v? xe v?n chuy?n,… N?u kho bãi b?n thuê có h? tr? nh?ng d?ch v? này, thì giá thành thuê duong nhiên s? tang lên. Chúng tôi khuyên b?n nên xem xét chi phí c?a nh?ng d?ch v? này nhu th? nào d? cân nh?c l?a ch?n nhé.\r\nCó chi phí phát sinh không?\r\nNh?ng chi phí phát sinh chính là nh?ng chi phí mà ngu?i thuê không th? lu?ng tru?c, chúng hay xu?t hi?n trong khi ngu?i thuê s? d?ng kho bãi dó. Cho nên, b?n c?n tính toán k? d? tránh tình tr?ng có chi phí phát sinh tang lên quá nhi?u, ch?c ch?n s? ?nh hu?ng d?n ngân sách c?a công ty b?n.\r\nNh?ng chi phí phát sinh thu?ng xu?t hi?n trong khi s? d?ng kho bãi\r\nQuy trình và th? t?c xu?t nh?p hàng th? nào? Có m?t phí không?\r\nQuy trình và th? t?c xu?t nh?p hàng cung là m?t y?u t? quan tr?ng ?nh hu?ng l?n d?n th?i gian ho?t d?ng c?a quy trình s?n xu?t cung nhu các chi phí b? ra c?a ch? doanh nghi?p. B?n có th? tìm hi?u k? hon v? v?n d? này trong quá trình xem xét các kho bãi và nhà xu?ng tru?c khi quy?t d?nh thuê. T? dó, s? dua ra du?c nh?ng quy?t d?nh sáng su?t tru?c khi kí d?t bút h?p d?ng.\r\nQu?n lý hàng hóa luu tr? b?ng cách nào?\r\nVi?c luu tr? hàng hóa t?i nhà kho trong m?t th?i gian dài r?t c?n d?n s? qu?n lý ch?t ch? c?a các doanh nghi?p, tránh du?c tình tr?ng m?t mát, h?ng hóc. Ðuong nhiên, n?u trong tru?ng h?p kho bãi b?n thuê có cung c?p d?ch v? trông coi, tuy nhiên v?n c?n s? d?ng thu?n t? c? hai phía. B?n có th? t? mình ho?c cho ngu?i xu?ng ki?m tra hàng hóa c?a mình theo m?t th?i gian nh?t d?nh ho?c có th? s? d?ng các thi?t b? an ninh d? giám sát trong kho. Ðây du?c xem là m?t kinh nghi?m thuê kho bãi nhà xu?ng khá quan tr?ng, nó tránh cho ngu?i thuê b? tình tr?ng hao h?t hàng hóa.\r\nÐ?n xem kho xu?ng tru?c khi quy?t d?nh\r\nÔng cha ta có câu “Tram nghe không b?ng m?t th?y”, dù các b?n có nh?n du?c r?t nhi?u l?i m?i chào h?p d?n cung không hi?u qu? b?ng m?t l?n t?n m?t ch?ng ki?n và dánh giá tình tr?ng, ki?m tra ch?t lu?ng kho bãi. B?n có th? di cùng m?t chuyên gia am hi?u trong linh v?c kho bãi nhà xu?ng di theo mình, h? s? cho b?n nh?ng tu v?n c?n thi?t. Vi?c làm này giúp b?n có m?t cái nhìn khách quan hon tru?c khi quy?t d?nh có nên thuê hay không.\r\nTh?i gian thuê\r\nTh?i gian thuê kho xu?ng ng?n hay dài tùy thu?c vào nhu c?u s? d?ng cung nhu tính ch?t d? án c?a doanh nghi?p dó. Nhuung d? tìm du?c m?t nhà kho ung ý v?i mình là di?u khá khó, vì v?y b?n c?n ph?i tính toán d?n phuong án thuê ?n d?nh và lâu dài, thông thu?ng s? thuê kho?ng 1 nam. Ð?n ngày gia h?n h?p d?ng thuê m?i, b?n có th? cân nh?c l?i và sau dó m?i ti?n hành gia h?n thêm h?p d?ng ho?c k?t thúc h?p d?ng.\r\nTi?n d?t c?c thuê kho\r\nSau khi dã quy?t d?nh thuê, b?n và bên cho thuê s? th?a thu?n v? s? ti?n d?t c?c. Ðây chính là kho?n ti?n d? gi? giao kèo gi?a bên thuê và bên cho thuê kho xu?ng. Thông thu?ng kho?n ti?n này s? b?ng giá thuê c?a 3 tháng d? l?i.\r\nTi?n c?c là kho?n ti?n d? gi? giao kèo gi?a bên thuê và bên cho thuê. \r\nNh?ng di?u kho?n trong h?p d?ng\r\nHai bên c?n xem xét k? lu?ng v? các di?u kho?n có trong h?p d?ng tru?c khi kí, nhu th? s? giúp dôi bên tránh du?c tình tr?ng mâu thu?n sau này. Các di?u kho?n c?ncó trong h?p d?ng:\r\n•\tTi?n c?c và giá thuê kho xu?ng hàng tháng (ho?c theo nam)\r\n•\tTh?i gian thuê kho xu?ng và t? l? tang giá hàng nam n?u b?n thuê dài h?n\r\n•\tNghia v? và trách nhi?m c?a bên thuê và cho thuê\r\n•\tTh?i gian gia h?n h?p d?ng thuê kho\r\n•\tKhi mu?n thay d?i ho?c có ý s?a d?i, b? sung b?t c? m?t di?u kho?n nào trong h?p d?ng thì c? hai bên l?p thêm ph? l?c h?p d?ng và vi?c này ph?i có s? d?ng ý c?a c? hai bên ch? không t? ý don phuong thay d?i.\r\n•\tCam k?t d?m b?o v?n d? an ninh, an toàn cho hàng hóa luu tr? trong su?t th?i gian thuê.\r\nKý k?t h?p d?ng\r\nSau khi hai bên dã th?ng nh?t và ti?n hành ký k?t h?p d?ng thì m?i bên s? gi? m?t b?n. N?u c?n thi?t thì các b?n có th? dem h?p d?ng dó ra co quan có th?m quy?n công ch?ng d? tang thêm tính h?p pháp và d?m b?o.\r\nHy v?ng v?i nh?ng kinh nghi?m thuê kho bãi nhà xu?ng mà Batdongsan.com.vn v?a nêu trên s? giúp các b?n dua ra quy?t d?nh sáng su?t hon, d?ng th?i cung giúp tang hi?u qu? kinh doanh t?i da nh?t.",
+            "created_at": "2022-07-07 14:20:08",
+            "updated_at": null
+          }
+        },
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "user_id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "category_id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "status_id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "post_time": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "date-time"
+          },
+          "title": {
+            "type": "string"
+          },
+          "content": {
+            "type": "string"
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updated_at": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "date-time"
+          }
+        }
+      },
+      "profiles": {
+        "type": "object",
+        "x-examples": {
+          "example-1": {
+            "id": "8db1b7b1-3967-4231-9757-35296044788d",
+            "wards_code": "0100100001",
+            "user_id": "0d110007-7658-48a0-b87b-d65cfbd8f5ee",
+            "fullname": "Bùi Đức Thắng",
+            "gender": null,
+            "birthday": null,
+            "detail_location": null,
+            "phone_number": null,
+            "citizen_id_number": null,
+            "img_id_front": null,
+            "img_id_back": null,
+            "self_img": null,
+            "enterprise_name": null,
+            "tax_code": null,
+            "website": null,
+            "enterprise_email": null,
+            "enterprise_agency": null,
+            "enterprise_policy_img": null,
+            "enterprise_img": null,
+            "legal_representative_name": null,
+            "legal_representative_phone": null,
+            "legal_representative_position": null,
+            "legal_representative_email": null,
+            "updated_at": null,
+            "created_at": "2022-07-16 09:44:32.012473"
+          }
+        },
+        "description": "",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "wards_code": {
+            "type": "string"
+          },
+          "user_id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "fullname": {
+            "type": "string"
+          },
+          "gender": {
+            "type": [
+              "null",
+              "boolean"
+            ]
+          },
+          "birthday": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "date-time"
+          },
+          "detail_location": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "phone_number": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "citizen_id_number": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "img_id_front": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "img_id_back": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "self_img": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "enterprise_name": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "tax_code": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "website": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "enterprise_email": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "enterprise_agency": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "enterprise_policy_img": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "enterprise_img": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "legal_representative_name": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "legal_representative_phone": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "legal_representative_position": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "legal_representative_email": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "updated_at": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "date-time"
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      },
+      "properties": {
+        "type": "object",
+        "x-examples": {
+          "example-1": {
+            "id": "d235b842-3f77-4603-925a-bc3ced0a3c30",
+            "property_type_id": "f26bdb46-c2f8-4c14-9702-d4d1f4a80ad1",
+            "wards_code": "0100100001",
+            "detail_location": "Hà N?i",
+            "map_location": null,
+            "square": 250,
+            "price": {
+              "IsNull": false,
+              "Value": 30000000000,
+              "IsPositive": true,
+              "Precision": 13,
+              "Scale": 2,
+              "Data": [
+                2112827392,
+                698,
+                0,
+                0
+              ],
+              "BinData": [
+                0,
+                48,
+                239,
+                125,
+                186,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "price_unit": "VND",
+            "direction": "Ðông - Nam",
+            "policy": "Sổ đỏ",
+            "description": null,
+            "bedroom_count": null,
+            "bathroom_count": null,
+            "floor_count": null,
+            "balocony_count": null,
+            "entrance": null,
+            "furniture": null,
+            "facade": null,
+            "created_at": "2022-07-04 10:09:00",
+            "updated_at": "2022-07-13 14:03:59"
+          }
+        },
+        "description": "",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "property_type_id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "wards_code": {
+            "type": "string"
+          },
+          "detail_location": {
+            "type": "string"
+          },
+          "map_location": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "square": {
+            "type": "integer"
+          },
+          "price": {
+            "type": "string"
+          },
+          "price_unit": {
+            "type": "string"
+          },
+          "direction": {
+            "type": "string"
+          },
+          "policy": {
+            "type": "string"
+          },
+          "description": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "bedroom_count": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "bathroom_count": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "floor_count": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "balocony": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "entrance": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "furniture": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "facade": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updated_at": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date-time"
+          }
+        },
+        "examples": [
+          {
+            "id": "497f6eca-6276-4993-bfeb-53cbbbba6f08",
+            "property_type_id": "c0e53b5b-93eb-4fe8-83b8-620d0116f648",
+            "wards_code": "string",
+            "detail_location": "string",
+            "map_location": null,
+            "square": 0,
+            "price": "string",
+            "price_unit": "string",
+            "direction": "string",
+            "policy": "string",
+            "description": null,
+            "bedroom_count": null,
+            "bathroom_count": null,
+            "floor_count": null,
+            "balocony": null,
+            "entrance": null,
+            "furniture": null,
+            "facade": null,
+            "created_at": "2019-08-24T14:15:22Z",
+            "updated_at": "2019-08-24T14:15:22Z"
+          }
+        ]
+      },
+      "property_amenities": {
+        "type": "object",
+        "x-examples": {
+          "example-1": {
+            "id": "ad99dc8f-696f-4353-9efb-57fad49a1e51",
+            "property_id": "d235b842-3f77-4603-925a-bc3ced0a3c30",
+            "amenitie_id": "6c032bfd-e6cc-4796-9687-e44d847273de",
+            "description": "Trường đại học Quản Lý và Công nghệ Hải Phòng",
+            "created_at": "2022-07-21 15:22:57.445039",
+            "updated_at": null
+          }
+        },
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "property_id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "amenitie_id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "description": {
+            "type": "string"
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updated_at": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "date-time"
+          }
+        }
+      },
+      "property_images": {
+        "title": "property_images",
+        "x-stoplight": {
+          "id": "pbg68icndzqlr"
+        },
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "property_id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "url_image": {
+            "type": "string"
+          },
+          "description": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "update_at": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date-time"
+          }
+        }
+      },
+      "property_posts": {
+        "type": "object",
+        "x-examples": {
+          "example-1": {
+            "id": "a1189721-e42c-4932-9468-9627b4841043",
+            "user_id": "e6c2ffc7-4ea9-4843-99a8-b1e57337419a",
+            "properties_id": "4d82d6f6-211f-467e-873e-a91efb27555f",
+            "transcactions_type_id": "d18f36f3-c705-4c45-acdb-153d8dadb2d3",
+            "title": null,
+            "description": null,
+            "post_time": null,
+            "amount_postdays": null,
+            "end_time": null,
+            "level": null,
+            "hot": true,
+            "created_at": "2022-07-04 11:11:20",
+            "updated_at": null
+          }
+        },
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "user_id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "properties_id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "transcactions_type_id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "title": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "description": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "post_time": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "date-time"
+          },
+          "amount_postdays": {
+            "type": "null"
+          },
+          "end_time": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "date-time"
+          },
+          "level": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "hot": {
+            "type": "boolean"
+          },
+          "created_at": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "updated_at": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "date-time"
+          }
+        }
+      },
+      "property_types": {
+        "type": "object",
+        "x-examples": {
+          "example-1": {
+            "id": "6d3edd57-8192-493f-80e4-db7f6923170a",
+            "name": "Nhà chung cư",
+            "description": null,
+            "created_at": "2022-07-21 14:17:01.449222",
+            "updated_at": null
+          }
+        },
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updated_at": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "date-time"
+          }
+        }
+      },
+      "provinces": {
+        "type": "object",
+        "x-examples": {
+          "example-1": {
+            "id": "90ec880b-a525-4f2d-94e1-45911892b1a7",
+            "province_name": "Thành phố Hà Nội",
+            "province_code": "01",
+            "level": "Thành phố Trung ương",
+            "district_code": "01001",
+            "district_name": "Quận Ba Đình",
+            "wards_code": "0100100001",
+            "wards_name": "Phường Phúc Xá",
+            "wards_level": "Phường",
+            "created_at": "2022-07-21 15:06:01.466105",
+            "updated_at": null
+          }
+        },
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "province_name": {
+            "type": "string"
+          },
+          "province_code": {
+            "type": "string"
+          },
+          "level": {
+            "type": "string"
+          },
+          "district_code": {
+            "type": "string"
+          },
+          "district_name": {
+            "type": "string"
+          },
+          "wards_code": {
+            "type": "string"
+          },
+          "wards_name": {
+            "type": "string"
+          },
+          "wards_level": {
+            "type": "string"
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updated_at": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "date-time"
+          }
+        }
+      },
+      "request_types": {
+        "type": "object",
+        "x-examples": {
+          "example-1": {
+            "id": "6d128c9b-53ac-4ff9-8489-5978d0b641f1",
+            "name": "Tư vấn bất động sản",
+            "description": null,
+            "created_at": "2022-07-21 14:18:10.79141",
+            "updated_at": null
+          }
+        },
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updated_at": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "date-time"
+          }
+        }
+      },
+      "request_users": {
+        "type": "object",
+        "x-examples": {
+          "example-1": {
+            "id": "4c2f162f-6804-4453-bcb0-763060e8d92e",
+            "user_id": "37c2cd54-ac59-406e-966a-123dd1452d1d",
+            "request_type_id": "6d128c9b-53ac-4ff9-8489-5978d0b641f1",
+            "detail": null,
+            "created_at": "2022-07-21 15:27:00.996489",
+            "updated_at": null
+          }
+        },
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "user_id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "request_type_id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "detail": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updated_at": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "date-time"
+          }
+        }
+      },
+      "roles": {
+        "type": "object",
+        "x-examples": {
+          "example-1": {
+            "id": "6c793713-cd54-40bb-8f3c-e3b8c232449f",
+            "name": "Admin System",
+            "description": null,
+            "created_at": "2022-07-13 10:18:12.998567",
+            "update_at": null
+          }
+        },
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "update_at": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "date-time"
+          }
+        }
+      },
+      "status": {
+        "type": "object",
+        "x-examples": {
+          "example-1": {
+            "id": "fe1390b8-ac6a-48df-855a-2924de1b02eb",
+            "name": "Ðã đăng",
+            "description": null,
+            "created_at": "2022-07-05 14:47:52",
+            "updated_at": null
+          }
+        },
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updated_at": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "date-time"
+          }
+        }
+      },
+      "techniques": {
+        "type": "object",
+        "x-examples": {
+          "example-1": {
+            "id": "5f50f873-ad3b-4ef0-98d6-ddf6a27eabf5",
+            "name": "Pháp lý",
+            "description": "chuyên về vấn đề pháp luật",
+            "created_at": "2022-07-21 15:13:20.213088",
+            "update_at": null
+          }
+        },
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "update_at": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "date-time"
+          }
+        }
+      },
+      "transaction_types": {
+        "type": "object",
+        "x-examples": {
+          "example-1": {
+            "id": "cc5f5a9d-c6ed-43fb-8aa4-5fc5b0f712bb",
+            "name": "Mua",
+            "description": "kiểu giao dịch mua",
+            "created_at": "2022-07-21 14:17:08.907633",
+            "update_at": null
+          }
+        },
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "update_at": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "date-time"
+          }
+        }
+      },
+      "users": {
+        "type": "object",
+        "x-examples": {
+          "example-1": {
+            "id": "0d110007-7658-48a0-b87b-d65cfbd8f5ee",
+            "role_id": "0f99f080-771e-4dde-ac51-1bb05a9e8edb",
+            "name": "buithang770@gmail.com",
+            "passwords": "$1$LzayJYce$G7bZvz4ap/KpGL/lEjyae.",
+            "lock": null,
+            "kyc": false,
+            "created_at": "2022-07-16 09:44:32.012473",
+            "updated_at": null
+          }
+        },
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "role_id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "name": {
+            "type": "string"
+          },
+          "passwords": {
+            "type": "string"
+          },
+          "lock": {
+            "type": [
+              "null",
+              "boolean"
+            ]
+          },
+          "kyc": {
+            "type": "boolean"
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updated_at": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "date-time"
+          }
+        }
+      }
+    }
+  }
+}
